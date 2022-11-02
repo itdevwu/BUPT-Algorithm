@@ -1,0 +1,107 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2019
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab4_scheduler", "lab4_scheduler\lab4_scheduler.vcxproj", "{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab4_datagen", "lab4_datagen\lab4_datagen.vcxproj", "{F651D66F-BD94-4527-BB59-79EAEBD36082}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		debug|i386 = debug|i386
+		debug|x86_64 = debug|x86_64
+		debug|armv7 = debug|armv7
+		debug|armv7s = debug|armv7s
+		debug|arm64-v8a = debug|arm64-v8a
+		debug|mips = debug|mips
+		debug|mips64 = debug|mips64
+		debug|mipsel = debug|mipsel
+		debug|mips64el = debug|mips64el
+		release|i386 = release|i386
+		release|x86_64 = release|x86_64
+		release|armv7 = release|armv7
+		release|armv7s = release|armv7s
+		release|arm64-v8a = release|arm64-v8a
+		release|mips = release|mips
+		release|mips64 = release|mips64
+		release|mipsel = release|mipsel
+		release|mips64el = release|mips64el
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|i386.ActiveCfg = debug|Win32
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|i386.Build.0 = debug|Win32
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|x86_64.ActiveCfg = debug|x64
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|x86_64.Build.0 = debug|x64
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|armv7.ActiveCfg = debug|ARM
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|armv7.Build.0 = debug|ARM
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|armv7s.ActiveCfg = debug|ARM
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|armv7s.Build.0 = debug|ARM
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|arm64-v8a.ActiveCfg = debug|ARM64
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|arm64-v8a.Build.0 = debug|ARM64
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|mips.ActiveCfg = debug|mips
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|mips.Build.0 = debug|mips
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|mips64.ActiveCfg = debug|mips64
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|mips64.Build.0 = debug|mips64
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|mipsel.ActiveCfg = debug|mipsel
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|mipsel.Build.0 = debug|mipsel
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|mips64el.ActiveCfg = debug|mips64el
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.debug|mips64el.Build.0 = debug|mips64el
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|i386.ActiveCfg = release|Win32
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|i386.Build.0 = release|Win32
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|x86_64.ActiveCfg = release|x64
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|x86_64.Build.0 = release|x64
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|armv7.ActiveCfg = release|ARM
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|armv7.Build.0 = release|ARM
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|armv7s.ActiveCfg = release|ARM
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|armv7s.Build.0 = release|ARM
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|arm64-v8a.ActiveCfg = release|ARM64
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|arm64-v8a.Build.0 = release|ARM64
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|mips.ActiveCfg = release|mips
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|mips.Build.0 = release|mips
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|mips64.ActiveCfg = release|mips64
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|mips64.Build.0 = release|mips64
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|mipsel.ActiveCfg = release|mipsel
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|mipsel.Build.0 = release|mipsel
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|mips64el.ActiveCfg = release|mips64el
+		{F651D66F-BD94-4527-BB59-79EAEBD36082}.release|mips64el.Build.0 = release|mips64el
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|i386.ActiveCfg = debug|Win32
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|i386.Build.0 = debug|Win32
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|x86_64.ActiveCfg = debug|x64
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|x86_64.Build.0 = debug|x64
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|armv7.ActiveCfg = debug|ARM
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|armv7.Build.0 = debug|ARM
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|armv7s.ActiveCfg = debug|ARM
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|armv7s.Build.0 = debug|ARM
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|arm64-v8a.ActiveCfg = debug|ARM64
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|arm64-v8a.Build.0 = debug|ARM64
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|mips.ActiveCfg = debug|mips
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|mips.Build.0 = debug|mips
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|mips64.ActiveCfg = debug|mips64
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|mips64.Build.0 = debug|mips64
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|mipsel.ActiveCfg = debug|mipsel
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|mipsel.Build.0 = debug|mipsel
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|mips64el.ActiveCfg = debug|mips64el
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.debug|mips64el.Build.0 = debug|mips64el
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|i386.ActiveCfg = release|Win32
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|i386.Build.0 = release|Win32
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|x86_64.ActiveCfg = release|x64
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|x86_64.Build.0 = release|x64
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|armv7.ActiveCfg = release|ARM
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|armv7.Build.0 = release|ARM
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|armv7s.ActiveCfg = release|ARM
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|armv7s.Build.0 = release|ARM
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|arm64-v8a.ActiveCfg = release|ARM64
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|arm64-v8a.Build.0 = release|ARM64
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|mips.ActiveCfg = release|mips
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|mips.Build.0 = release|mips
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|mips64.ActiveCfg = release|mips64
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|mips64.Build.0 = release|mips64
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|mipsel.ActiveCfg = release|mipsel
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|mipsel.Build.0 = release|mipsel
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|mips64el.ActiveCfg = release|mips64el
+		{B91A97CB-6B5E-48AE-8BA4-17C7E345AB9C}.release|mips64el.Build.0 = release|mips64el
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

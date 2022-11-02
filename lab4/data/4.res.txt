@@ -1,0 +1,1 @@
+[0m[1;38;5;1;1merror: [0mfile(/home/user/projects/BUPT-Algorithm/lab4-bak/xmake.lua): file not found![0m

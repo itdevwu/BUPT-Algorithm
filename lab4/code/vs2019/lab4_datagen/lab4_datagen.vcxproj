@@ -1,0 +1,863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|Win32">
+      <Configuration>debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug|ARM">
+      <Configuration>debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug|ARM">
+      <Configuration>debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug|ARM64">
+      <Configuration>debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug|mips">
+      <Configuration>debug</Configuration>
+      <Platform>mips</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug|mips64">
+      <Configuration>debug</Configuration>
+      <Platform>mips64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug|mipsel">
+      <Configuration>debug</Configuration>
+      <Platform>mipsel</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug|mips64el">
+      <Configuration>debug</Configuration>
+      <Platform>mips64el</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|Win32">
+      <Configuration>release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|ARM">
+      <Configuration>release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|ARM">
+      <Configuration>release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|ARM64">
+      <Configuration>release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|mips">
+      <Configuration>release</Configuration>
+      <Platform>mips</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|mips64">
+      <Configuration>release</Configuration>
+      <Platform>mips64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|mipsel">
+      <Configuration>release</Configuration>
+      <Platform>mipsel</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|mips64el">
+      <Configuration>release</Configuration>
+      <Platform>mips64el</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F651D66F-BD94-4527-BB59-79EAEBD36082}</ProjectGuid>
+    <RootNamespace>lab4_datagen</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|ARM64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|mips'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|mips64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|mipsel'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|mips64el'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|ARM'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|ARM64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|mips'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|mips64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|mipsel'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|mips64el'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|ARM64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|mips'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|mips64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|mipsel'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|mips64el'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|ARM64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|mips'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|mips64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|mipsel'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|mips64el'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">
+    <OutDir>../../build/linux/i386/debug\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/i386/debug\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <OutDir>../../build/linux/x86_64/debug\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/x86_64/debug\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|ARM'">
+    <OutDir>../../build/linux/armv7/debug\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/armv7/debug\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|ARM'">
+    <OutDir>../../build/linux/armv7s/debug\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/armv7s/debug\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|ARM64'">
+    <OutDir>../../build/linux/arm64-v8a/debug\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/arm64-v8a/debug\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|mips'">
+    <OutDir>../../build/linux/mips/debug\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/mips/debug\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|mips64'">
+    <OutDir>../../build/linux/mips64/debug\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/mips64/debug\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|mipsel'">
+    <OutDir>../../build/linux/mipsel/debug\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/mipsel/debug\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|mips64el'">
+    <OutDir>../../build/linux/mips64el/debug\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/mips64el/debug\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'">
+    <OutDir>../../build/linux/i386/release\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/i386/release\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <OutDir>../../build/linux/x86_64/release\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/x86_64/release\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|ARM'">
+    <OutDir>../../build/linux/armv7/release\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/armv7/release\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|ARM'">
+    <OutDir>../../build/linux/armv7s/release\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/armv7s/release\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|ARM64'">
+    <OutDir>../../build/linux/arm64-v8a/release\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/arm64-v8a/release\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|mips'">
+    <OutDir>../../build/linux/mips/release\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/mips/release\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|mips64'">
+    <OutDir>../../build/linux/mips64/release\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/mips64/release\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|mipsel'">
+    <OutDir>../../build/linux/mipsel/release\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/mipsel/release\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|mips64el'">
+    <OutDir>../../build/linux/mips64el/release\</OutDir>
+    <IntDir>../../build/.objs/lab4_datagen/linux/mips64el/release\</IntDir>
+    <TargetName>lab4_datagen</TargetName>
+    <TargetExt></TargetExt>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/i386/debug</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/x86_64/debug</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|ARM'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/armv7/debug</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|ARM'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/armv7s/debug</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|ARM64'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/arm64-v8a/debug</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|mips'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/mips/debug</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|mips64'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/mips64/debug</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|mipsel'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/mipsel/debug</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|mips64el'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/mips64el/debug</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/i386/release</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/x86_64/release</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|ARM'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/armv7/release</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|ARM'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/armv7s/release</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|ARM64'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/arm64-v8a/release</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|mips'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/mips/release</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|mips64'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/mips64/release</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|mipsel'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/mipsel/release</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|mips64el'" Label="Debugger">
+    <LocalDebuggerWorkingDirectory>../../build/linux/mips64el/release</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>;%(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'">
+    <Link>
+      <AdditionalOptions>-m32 %(AdditionalOptions)</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>__config_debug__;__config_Win32__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-m32 -g -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__config_debug__;__config_Win32__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <Link>
+      <AdditionalOptions>-m64 %(AdditionalOptions)</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>__config_debug__;__config_x64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-m64 -g -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__config_debug__;__config_x64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|ARM'">
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>__config_debug__;__config_ARM__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-g -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__config_debug__;__config_ARM__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|ARM'">
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>__config_debug__;__config_ARM__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-g -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__config_debug__;__config_ARM__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|ARM64'">
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>__config_debug__;__config_ARM64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-g -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__config_debug__;__config_ARM64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|mips'">
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>__config_debug__;__config_mips__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-g -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__config_debug__;__config_mips__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|mips64'">
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>__config_debug__;__config_mips64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-g -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__config_debug__;__config_mips64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|mipsel'">
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>__config_debug__;__config_mipsel__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-g -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__config_debug__;__config_mipsel__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|mips64el'">
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>__config_debug__;__config_mips64el__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-g -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>__config_debug__;__config_mips64el__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'">
+    <Link>
+      <AdditionalOptions>-m32 -s %(AdditionalOptions)</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_Win32__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-m32 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_Win32__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <Link>
+      <AdditionalOptions>-m64 -s %(AdditionalOptions)</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_x64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-m64 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_x64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|ARM'">
+    <Link>
+      <AdditionalOptions>-s %(AdditionalOptions)</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_ARM__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-fvisibility=hidden -fvisibility-inlines-hidden -O3 -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_ARM__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|ARM'">
+    <Link>
+      <AdditionalOptions>-s %(AdditionalOptions)</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_ARM__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-fvisibility=hidden -fvisibility-inlines-hidden -O3 -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_ARM__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|ARM64'">
+    <Link>
+      <AdditionalOptions>-s %(AdditionalOptions)</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_ARM64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-fvisibility=hidden -fvisibility-inlines-hidden -O3 -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_ARM64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|mips'">
+    <Link>
+      <AdditionalOptions>-s %(AdditionalOptions)</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_mips__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-fvisibility=hidden -fvisibility-inlines-hidden -O3 -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_mips__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|mips64'">
+    <Link>
+      <AdditionalOptions>-s %(AdditionalOptions)</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_mips64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-fvisibility=hidden -fvisibility-inlines-hidden -O3 -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_mips64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|mipsel'">
+    <Link>
+      <AdditionalOptions>-s %(AdditionalOptions)</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_mipsel__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-fvisibility=hidden -fvisibility-inlines-hidden -O3 -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_mipsel__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|mips64el'">
+    <Link>
+      <AdditionalOptions>-s %(AdditionalOptions)</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ExternalTemplatesDiagnostics>false</ExternalTemplatesDiagnostics>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_mips64el__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>-fvisibility=hidden -fvisibility-inlines-hidden -O3 -std=c++20 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;__config_release__;__config_mips64el__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="../../datagen/main.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
