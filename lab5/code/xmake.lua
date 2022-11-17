@@ -1,3 +1,9 @@
+target("lab5")
+    set_rundir("..")
+    set_languages("cxx20")
+    set_kind("binary")
+    add_files("./src/miner/*.cpp")
+
 target("datagen")
     set_rundir("..")
     set_languages("cxx20")
