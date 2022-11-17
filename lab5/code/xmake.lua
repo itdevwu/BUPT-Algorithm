@@ -1,0 +1,5 @@
+target("datagen")
+    set_rundir("..")
+    set_languages("cxx20")
+    set_kind("binary")
+    add_files("./src/datagen/*.cpp")
